@@ -1,0 +1,2 @@
+BNW_MODE = False
+BNW_MODE_PW = "000"
