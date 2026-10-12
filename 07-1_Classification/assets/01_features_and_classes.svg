@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240">
+<style>text{font-family:sans-serif;font-size:16px;fill:#17394b}</style>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#536675"/></marker></defs>
+<rect width="640" height="240" fill="white"/>
+<rect x="16" y="53" width="172" height="102" rx="8" fill="#edf5f7"/>
+<text x="32" y="84" text-anchor="start" style="font-size:16px;fill:#536675">Preparation wait</text>
+<text x="32" y="123" text-anchor="start" style="font-size:18px;fill:#078880">18 minutes</text>
+<rect x="234" y="53" width="172" height="102" rx="8" fill="#edf5f7"/>
+<text x="250" y="84" text-anchor="start" style="font-size:16px;fill:#536675">Fitted model</text>
+<text x="250" y="123" text-anchor="start" style="font-size:18px;fill:#078880">P(late) = 56%</text>
+<rect x="452" y="53" width="172" height="102" rx="8" fill="#edf5f7"/>
+<text x="468" y="84" text-anchor="start" style="font-size:16px;fill:#536675">Predicted class</text>
+<text x="468" y="123" text-anchor="start" style="font-size:18px;fill:#078880">Late</text>
+<line x1="191" y1="105" x2="223" y2="105" stroke="#536675" stroke-width="2" stroke-dasharray="" marker-end="url(#arrow)"/>
+<line x1="409" y1="105" x2="442" y2="105" stroke="#536675" stroke-width="2" stroke-dasharray="" marker-end="url(#arrow)"/>
+<text x="16" y="222" text-anchor="start" style="font-size:16px;fill:#17394b">Training pairs: preparation wait + observed label.</text>
+<text x="452" y="186" text-anchor="start" style="font-size:16px;fill:#536675">Threshold = 0.50</text>
+</svg>

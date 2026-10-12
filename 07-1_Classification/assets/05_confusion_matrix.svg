@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="354" viewBox="0 0 640 354">
+<style>text{font-family:sans-serif;font-size:16px;fill:#17394b}</style>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#536675"/></marker></defs>
+<rect width="640" height="354" fill="white"/>
+<text x="366" y="26" text-anchor="middle" style="font-size:18px;fill:#17394b">Predicted action</text>
+<text x="266" y="61" text-anchor="middle" style="font-size:16px;fill:#17394b">Keep</text>
+<text x="490" y="61" text-anchor="middle" style="font-size:16px;fill:#17394b">Filter as spam</text>
+<text x="16" y="98" text-anchor="start" style="font-size:16px;fill:#536675">Actual class</text>
+<text x="16" y="159" text-anchor="start" style="font-size:16px;fill:#17394b">Legitimate</text>
+<text x="16" y="268" text-anchor="start" style="font-size:16px;fill:#17394b">Spam</text>
+<rect x="156" y="78" width="212" height="108" rx="5" fill="#e3f0ee"/>
+<text x="262" y="106" text-anchor="middle" style="font-size:16px;fill:#17394b">True negative</text>
+<text x="262" y="140" text-anchor="middle" style="font-size:26px;fill:#078880">86</text>
+<text x="262" y="168" text-anchor="middle" style="font-size:16px;fill:#536675">Kept correctly</text>
+<rect x="380" y="78" width="212" height="108" rx="5" fill="#fff0df"/>
+<text x="486" y="106" text-anchor="middle" style="font-size:16px;fill:#17394b">False positive</text>
+<text x="486" y="140" text-anchor="middle" style="font-size:26px;fill:#d87522">5</text>
+<text x="486" y="168" text-anchor="middle" style="font-size:16px;fill:#536675">Hidden by mistake</text>
+<rect x="156" y="197" width="212" height="108" rx="5" fill="#fff0df"/>
+<text x="262" y="225" text-anchor="middle" style="font-size:16px;fill:#17394b">False negative</text>
+<text x="262" y="259" text-anchor="middle" style="font-size:26px;fill:#d87522">12</text>
+<text x="262" y="287" text-anchor="middle" style="font-size:16px;fill:#536675">Spam missed</text>
+<rect x="380" y="197" width="212" height="108" rx="5" fill="#e3f0ee"/>
+<text x="486" y="225" text-anchor="middle" style="font-size:16px;fill:#17394b">True positive</text>
+<text x="486" y="259" text-anchor="middle" style="font-size:26px;fill:#078880">17</text>
+<text x="486" y="287" text-anchor="middle" style="font-size:16px;fill:#536675">Spam caught</text>
+<text x="156" y="342" text-anchor="start" style="font-size:16px;fill:#536675">Validation messages · Threshold 0.50 · Total 120</text>
+</svg>
